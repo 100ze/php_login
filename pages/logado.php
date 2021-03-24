@@ -1,4 +1,7 @@
 <?php
+  // verificando se o usuário está logado
+  require_once "../utils/block.php";
+
   // cabeçalho
   $tituloAba = "Online";
   require_once "../templates/cabecalho.php";
