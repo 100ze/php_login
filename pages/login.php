@@ -1,9 +1,11 @@
 <?php
+  require_once "../app/limparEntrada.php";
+
   // variáveis
   $tituloAba = "Login";
   // armazenando endereço atual do script php
   // em execução
-  $enderecoScriptPHP = htmlspecialchars($_SERVER["PHP_SELF"]);
+  $enderecoScriptPHP = limparEntrada($_SERVER["PHP_SELF"]);
 
   // cabeçalho
   require_once "../templates/cabecalho.php";
