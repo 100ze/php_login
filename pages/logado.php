@@ -1,4 +1,5 @@
 <?php
+  // cabeçalho
   $tituloAba = "Online";
   require_once "../templates/cabecalho.php";
 ?>
@@ -13,5 +14,6 @@
 <section>
 
 <?php
+  // rodapé
   require_once "../templates/rodape.php";
 ?>
