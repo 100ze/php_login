@@ -13,5 +13,5 @@
 <section>
 
 <?php
-  require_once "templates/rodape.php";
+  require_once "../templates/rodape.php";
 ?>
