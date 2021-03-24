@@ -1,4 +1,4 @@
 <?php
-  header("location: /pages/logado.php");
+  header("location: /pages/login.php");
   die();
 ?>
