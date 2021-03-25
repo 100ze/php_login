@@ -19,6 +19,9 @@
     $logado = logar($usuario, $senha);
 
     if($logado){
+      // salvando o nome do usuário na sua sessão
+      $_SESSION['usuario'] = $usuario;
+
       // redirecionando caso esteja logado
       header("location: logado.php");
       die();
