@@ -32,17 +32,27 @@
   require_once "../templates/cabecalho.php";
 ?>
 
-<header>
-  <h1>Login</h1>
-</header>
+<div class="w3-container w3-margin-top w3-padding s-center s-login">
+  <header>
+    <h1 class="">Login</h1>
+  </header>
 
-<section>
-<form action="<?=$enderecoScriptPHP?>" method="post">
-  Usuário: <input type="text" name="usuario"><br>
-  Senha: <input type="password" name="senha"><br>
-  <input type="submit">
-  </form>
-<section>
+  <section>
+    <form action="<?=$enderecoScriptPHP?>" method="post">
+      <div class="w3-padding-16">
+        Usuário: <br><input type="text" name="usuario"><br>
+      </div>
+
+      <div class="w3-padding-16">
+        Senha: <br><input type="password" name="senha"><br>
+      </div>
+
+      <div class="w3-padding-16">
+        <input type="submit">
+      </div>
+    </form>
+  <section>
+</div>
 
 <?php
   // rodapé
