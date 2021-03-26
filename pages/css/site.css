@@ -7,3 +7,18 @@
 .s-login{
   width: 300px;
 }
+
+.s-loritta{
+  width: 498px; 
+}
+
+.s-text{
+  color: #333;
+  text-shadow:1px 1px 0 #444;
+  font-size: 125%;
+}
+
+.s-title{
+  font-size: 3em;
+  font-weight: bold;
+}

@@ -9,15 +9,16 @@
   $tituloAba = "Online";
   require_once "../templates/cabecalho.php";
 ?>
+<div class="w3-container w3-margin-top w3-padding s-center s-loritta s-text">
+  <header>
+    <h1 class="s-title"><?=$usuario?> logou! ;)</h1>
+  </header>
 
-<header>
-<h1><?=$usuario?> logou! ;)</h1>
-</header>
-
-<section>
-  <img src="img/loritta_uwu.gif">
-  <p>E é isso.</p>
-<section>
+  <section>
+    <img src="img/loritta_uwu.gif">
+    <p>E é isso.</p>
+  <section>
+</div>
 
 <?php
   // rodapé
